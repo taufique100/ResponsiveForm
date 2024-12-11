@@ -1,6 +1,12 @@
-# Lost Material Complaint Form
+# Responsive Forms Using Bootstrap and HTML5
 
-This repository contains the implementation of a **Lost Material Complaint Form**, designed to collect and process data related to lost materials. The form uses **HTML5** for structure and **Bootstrap 5** for styling, ensuring a responsive and user-friendly interface.
+This repository contains a collection of responsive forms built using **Bootstrap 5** and **HTML5**. The forms are designed to address various use cases, such as complaint submissions, membership renewals, room reservations, and more. Each form is styled with custom CSS for enhanced user experience.
+
+---
+
+## Repository URL
+
+[Responsive Forms Using Bootstrap and HTML5](https://github.com/taufique100/ResponsiveForm)
 
 ---
 
@@ -9,8 +15,8 @@ This repository contains the implementation of a **Lost Material Complaint Form*
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Usage Instructions](#usage-instructions)
-5. [Project Structure](#project-structure)
+4. [File Structure](#file-structure)
+5. [Usage Instructions](#usage-instructions)
 6. [Contributing](#contributing)
 7. [License](#license)
 
@@ -18,40 +24,36 @@ This repository contains the implementation of a **Lost Material Complaint Form*
 
 ## Overview
 
-The Lost Material Complaint Form is intended to simplify the process of reporting lost materials. It includes fields for user identification, material selection, loan details, and payment methods. This lightweight implementation ensures a seamless user experience with responsive design principles.
+This project demonstrates how to create professional and responsive web forms for various applications. By leveraging Bootstrap 5, the forms are mobile-friendly and adapt seamlessly to different screen sizes.
+
+Each form in this repository serves a specific purpose:
+- **Lost Material Complaint Form**: To report lost items.
+- **Membership Renewal Form**: To renew user memberships.
+- **Procurement Proposal Form**: For procurement-related submissions.
+- **Room Reservation Form**: To manage room reservations.
+- **Room Preparation Form**: For requesting room setups.
+- **Single Reservation Form**: For individual reservation use cases.
 
 ---
 
 ## Features
 
-- **User Input**:
-  - Patron ID field for identification.
-  - Loan and return date fields.
-  - Payment method field.
-
-- **Material Selection Table**:
-  - Checkbox for material selection.
-  - Table displaying acquisition numbers and book names.
-
-- **Payment Summary**:
-  - Displays total payment.
-  - Provides a breakdown of book price, charges, and late fees.
-
-- **Responsive Design**:
-  - Built with Bootstrap 5 for compatibility across devices.
+- Fully responsive design for all forms.
+- Easy customization using external CSS files.
+- Forms include input fields, tables, checkboxes, and buttons for various functionalities.
+- Consistent styling using Bootstrap 5 components.
 
 ---
 
 ## Technologies Used
 
-- **HTML5**: Markup language for creating the form structure.
-- **CSS3**: For styling the form elements and layout.
-- **Bootstrap 5**: Framework for responsive design and UI components.
+- **HTML5**: Markup for form structure.
+- **CSS3**: For custom styles.
+- **Bootstrap 5**: Framework for responsive layout and UI components.
 
 ---
 
-## Usage Instructions
+## File Structure
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/lost-material-complaint-form.git
+The repository is organized as follows:
+
