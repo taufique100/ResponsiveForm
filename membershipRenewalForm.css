@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.renewalForm_container{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 4rem;
+}
+
+.renewalForm_container > div.form-wrapper{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.renewalForm_container h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.form_heading{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(126 126 126);
+    padding: 6px 20px;
+    border-radius: 4px;
+}
+
+textarea{
+    resize: none !important;
+}
+
+.table_form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem 3rem;
+    border-radius: 6px;
+}
+
+.daftar_btn > button{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.daftar_btn > button:first-child{
+    background-color: rgb(32 78 59);
+    color: #FFF;
+}
+
+.daftar_btn > button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width:991px) {
+    .table_responsive{
+        overflow-x: auto;
+    }
+}
