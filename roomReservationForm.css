@@ -44,6 +44,7 @@
 .side-bar-section{
     border: 1px solid #00000030;
     border-radius: 8px;
+    height: fit-content;
 }
 
 .image-wrapper{
@@ -58,7 +59,7 @@
 
 .step-button-grp button{
     color: #000000;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     border-color: transparent;
 }

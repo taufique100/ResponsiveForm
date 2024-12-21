@@ -23,6 +23,12 @@
     border-radius: 6px;
 }
 
+.cus-red{
+    color: red;
+    margin-left: 2px;
+    font-size: 20px;
+}
+
 
 .daftar_btn > button{
     border: none;

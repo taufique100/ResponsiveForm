@@ -27,6 +27,9 @@
     background-color: rgb(126 126 126);
     padding: 6px 20px;
     border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 textarea{

@@ -20,9 +20,7 @@
             <legend id="legend-title">Maklumat Peribadi</legend>
             <div class="row mb-3">
               <div class="col-md-6">
-                <label for="portalId" class="form-label"
-                  >Id Pengguna Portal PPJ*</label
-                >
+                <label for="portalId" class="form-label">Id Pengguna Portal PPJ<span class="cus-red">*</span></label>
                 <input
                   type="text"
                   class="form-control"
@@ -30,10 +28,8 @@
                   required
                 />
               </div>
-              <div class="col-md-6">
-                <label for="lokasiPPK" class="form-label"
-                  >Lokasi PPK Pilihan</label
-                >
+              <div class="col-md-6 mt-2">
+                <label for="lokasiPPK" class="form-label">Lokasi PPK Pilihan</label>
                 <select class="form-select" id="lokasiPPK">
                   <option selected>Pilih Lokasi</option>
                   <option value="1">Lokasi 1</option>
@@ -42,29 +38,29 @@
                 </select>
               </div>
             </div>
-            <div class="row mb-3">
-              <div class="col-md-6">
+            <div class="row mb-2">
+              <div class="col-md-6 mb-2">
                 <label for="nama" class="form-label">Nama</label>
                 <input type="text" class="form-control" id="nama" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-2">
                 <label for="noKP" class="form-label">No. K/P</label>
                 <input type="text" class="form-control" id="noKP" />
               </div>
             </div>
-            <div class="row mb-3">
-              <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 mb-3">
                 <label for="dob" class="form-label">Tarikh Lahir</label>
                 <input type="date" class="form-control" id="dob myDate" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3">
                 <label for="phone" class="form-label">No. Telefon</label>
                 <input type="tel" class="form-control" id="phone" />
               </div>
             </div>
-            <div class="row mb-3">
+            <div class="row">
               <div class="col-md-6">
-                <label for="warganegara" class="form-label">Warganegara*</label>
+                <label for="warganegara" class="form-label">Warganegara<span class="cus-red">*</span></label>
                 <div class="d-flex flex-wrap gap-md-5 gap-2">
                   <div class="form-check">
                     <input
@@ -77,7 +73,7 @@
                     />
                     <label class="form-check-label" for="ya1">Ya</label>
                   </div>
-                  <div class="form-check">
+                  <div class="form-check mb-3">
                     <input
                       class="form-check-input"
                       type="radio"
@@ -89,7 +85,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3">
                 <label for="bangsa" class="form-label">Bangsa</label>
                 <input type="text" class="form-control" id="bangsa" />
               </div>
@@ -98,12 +94,10 @@
         </form>
         <form class="mb-3">
           <fieldset id="fieldset-design">
-            <legend id="legend-title">Maklumat Tanggungan</legend>
+            <legend id="legend-title">Maklumat Tanggungan <button class="plusSign">+</button></legend>
             <div class="row mb-3">
               <div class="col-md-6">
-                <label for="idpengguna" class="form-label"
-                  >Id Pengguna Tanggungan*</label
-                >
+                <label for="idpengguna" class="form-label">Id Pengguna Tanggungan<span class="cus-red">*</span></label>
                 <input
                   type="text"
                   class="form-control"
@@ -134,7 +128,7 @@
                 </select>
               </div>
               <div class="col-md-6">
-                <label for="statusOKU" class="form-label">Status OKU*</label>
+                <label for="statusOKU" class="form-label">Status OKU<span class="cus-red">*</span></label>
                 <div class="d-flex flex-wrap gap-md-5 gap-2">
                   <div class="form-check">
                     <input
@@ -162,8 +156,8 @@
             </div>
             <div class="row mb-3">
               <div class="col-md-12">
-                <label for="lampiranphone" class="form-label">Lampiran*</label>
-                <input type="tel" class="form-control" id="lampiranphone" />
+                <label for="lampiranphone" class="form-label mb-2">Lampiran<span class="cus-red">*</span></label>
+                <input type="file" class="form-control" id="lampiranphone" />
               </div>
             </div>
           </fieldset>
@@ -206,9 +200,9 @@
                 <div
                   class="d-flex flex-wrap justify-content-between gap-md-5 gap-2"
                 >
-                  <label for="kakitanganppj" class="form-label">
+                  <label for="kakitanganppj" class="form-label ">
                     <span class="d-md-block">Adakah ahli keluarga anda merupakan</span>
-                    <span class="d-md-block"> kakitangan PPJ?*</span></label
+                    <span class="d-md-block"> kakitangan PPJ?<span class="cus-red">*</span></span></label
                   >
                   <div class="d-flex gap-5">
                     <div class="form-check">
@@ -236,9 +230,9 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <label for="idpengguna" class="form-label">Lampiran*</label>
+                <label for="idpengguna" class="form-label">Lampiran<span class="cus-red">*</span></label>
                 <input
-                  type="text"
+                  type="file"
                   class="form-control"
                   id="idpengguna"
                   required
@@ -248,7 +242,7 @@
             <div class="row mb-3 px-4">
               <div class="col-md-12">
                 <div class="d-flex flex-wrap justify-content-between gap-md-5 gap-2">
-                  <label for="berstatusoku" class="form-label">Adakah anda berstatus OKU?*</label
+                  <label for="berstatusoku" class="form-label">Adakah anda berstatus OKU?<span class="cus-red">*</span></label
                   >
                   <div class="d-flex gap-5">
                     <div class="form-check">
@@ -276,9 +270,9 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <label for="lampiranxx" class="form-label">Lampiran*</label>
+                <label for="lampiranxx" class="form-label mb-2">Lampiran<span class="cus-red">*</span></label>
                 <input
-                  type="text"
+                  type="file"
                   class="form-control"
                   id="lampiranxx"
                   required
@@ -324,12 +318,10 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                    <p>Jumlah Harga: RM XX</p>
+                    <p class="mt-3">Jumlah Harga: RM XX</p>
                   </div>
                   <div class="col-md-12">
-                    <label for="lokasiPPK" class="form-label"
-                      >Kaedah Pembayaran:</label
-                    >
+                    <label for="lokasiPPK" class="form-label mb-2">Kaedah Pembayaran:</label>
                     <select class="form-select" id="lokasiPPK">
                       <option selected></option>
                       <option value="1">Lokasi 1</option>
